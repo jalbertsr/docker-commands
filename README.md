@@ -75,3 +75,10 @@ docker run -it <
 ```
 docker run -p <hostPort:containerPort> <containerName>
 ```
+
+###### Build image
+
+```
+docker build .
+```
+command will look for `Dockerfile` file
