@@ -1,0 +1,11 @@
+services:
+     web: 
+        image: "jalbertsr/my-service"
+        ports: 
+             - "80:5000"
+        
+     database: 
+             image: "postgresql"
+             volumes: 
+                    - /
+     
