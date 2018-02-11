@@ -69,3 +69,9 @@ docker rmi <imageName>
 ```
 docker run -it <
 ```
+
+###### Mapping docker port(open port local)
+
+```
+docker run -p <port:port> <containerName>
+```
