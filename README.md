@@ -17,6 +17,11 @@ docker run -d <imagename> sleep <time>
 
 where `-d` means **run in background** and `<time>` is the **miliseconds** the container will be alive
 
+###### Execute a command iniside a container
+```
+docker exec <containerId> <command>
+```
+
 ###### List all running containers 
 
 ```
