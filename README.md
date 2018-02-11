@@ -34,6 +34,12 @@ docker ps
 docker images
 ```
 
+###### Info about a container 
+
+```
+docker inspect <containerId> 
+```
+
 ###### List all containers once runned
 
 ```
