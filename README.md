@@ -82,3 +82,22 @@ docker run -p <hostPort:containerPort> <containerName>
 docker build .
 ```
 command will look for `Dockerfile` file
+
+###### Name image
+
+```
+docker build . -t <username/imageName>
+```
+
+###### Login to hub.docker
+
+```
+docker login
+```
+
+###### Publish to hub.docker
+
+```
+docker push <imageName>
+```
+you have to be **logged in**
