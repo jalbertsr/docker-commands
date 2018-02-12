@@ -3,7 +3,7 @@
 
 ## Commands
 
-###### Install image from `hub.docker`:
+###### Install image from `hub.docker`
 
 ```
 docker pull <imageName> 
