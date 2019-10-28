@@ -138,3 +138,15 @@ kubectl get pods
 ```bash
 kubectl describe pod hello-world
 ```
+
+##### Delete pod
+
+```bash
+kubectl delete pod [pod name]
+```
+
+##### Automatic health check
+
+```bash
+
+```
